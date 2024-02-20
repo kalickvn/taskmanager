@@ -1,24 +1,34 @@
-# README
+# Task Management 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example project which build based on RoR inorder to create simple tasks.
+
+## Getting started
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 3.0.0
 
-* System dependencies
+* Postgres Database
 
-* Configuration
+## How to run the project
 
-* Database creation
+* Install Ruby: 3.0.0: Recommended: https://rvm.io/
 
-* Database initialization
+* Install Postgres Database
 
-* How to run the test suite
+* Change Database configuration config/database.yml
 
-* Services (job queues, cache servers, search engines, etc.)
+* Open Terminal and run following syntax:
+    bundle install
 
-* Deployment instructions
+    rake db:create
+    rake db:migrate
+    rake db:seed
+    
+    rails s
 
-* ...
+* Default webport: http://localhost:3000
+
+* Account Information: username: admin@example.com - password: password
+
+* Project has been tested under development environment.
