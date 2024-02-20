@@ -66,4 +66,9 @@ group :test do
   gem "selenium-webdriver"
 end
 
+gem 'activeadmin'
 gem "devise", "~> 4.9"
+gem 'cancancan'
+gem 'draper'
+gem 'pundit'
+gem 'sassc-rails'
