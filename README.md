@@ -34,3 +34,16 @@ Things you may want to cover:
 * Account Information: username: admin@example.com - password: password
 
 * Project has been tested under development environment.
+
+## For Running Unit test
+
+* Open Terminal and run following syntax:
+    bundle install
+
+    rake db:create RAILS_ENV=test
+
+    rake db:migrate RAILS_ENV=test
+    
+    rake db:seed RAILS_ENV=test
+
+    rails test test/models/task_test.rb or rails test
